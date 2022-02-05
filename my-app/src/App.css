@@ -12,6 +12,10 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.wrapper{
+  display: flex;
+  align-items: center;
+}
 
 .App-header {
   background-color: #282c34;
@@ -23,11 +27,23 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.App-content{
+  max-height: 100px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-bottom: 24px;
+}
 .App-link {
   color: #61dafb;
 }
-
+.inner{
+  margin-left: 100px;
+  max-width: 500px;
+  width: 100%;
+}
+h1,h2,h3,h4,h5{
+  margin: 0;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
